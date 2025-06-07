@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorApp">#ffffff</color>
+    <color name="colorAppDark">#f3f3f3</color>
+    <color name="colorPrimaryDark">#f1f1f1</color>
+    <color name="colorDetail">#f74951</color>
+    <color name="colorDetailDark">#cd2129</color>
+    <color name="colorDetailOld">#3cf1d6</color>
+    <color name="colorDetailDarkOld">#35dc9f</color>
+    <color name="colorText">#353535</color>
+    <color name="colorTextLight">#919191</color>
+    <color name="selected">#0bbaef</color>
+    <color name="colorBackgroundDark">#FF585858</color>
+
+    <color name="colorTextDark">#ffffff</color>
+    <color name="colorTextLightDark">#c7c7c7</color>
+
+
+
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="white_translucent">#AAFFFFFF</color>
+    <color name="black_translucent">#B0000000</color>
+    <color name="border">@color/white_translucent</color>
+    <color name="guideline">@color/white_translucent</color>
+    <color name="corner">@android:color/white</color>
+    <color name="surrounding_area">@color/black_translucent</color>
+</resources>

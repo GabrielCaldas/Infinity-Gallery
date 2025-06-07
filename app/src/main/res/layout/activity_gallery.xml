@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.Gallery">
+
+    <com.infinityco.infinitygallery.Helpers.ClickableViewPager
+        android:id="@+id/vpMedias"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000" />
+
+    <RelativeLayout
+        android:id="@+id/rlGalleryButtons"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#62000000"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:layout_alignParentStart="true"
+            android:layout_width="30dp"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_centerInParent="true"
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:background="@drawable/btback_white"/>
+
+            <Button
+                android:id="@+id/btGalleryBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_alignParentEnd="true"
+            android:gravity="end"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:weightSum="4">
+
+            <RelativeLayout
+                android:id="@+id/rlRawFlag"
+                android:visibility="gone"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="27dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/bt_raw_clean" />
+
+                <Button
+                    android:id="@+id/btRaw"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00000000" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btshare_white" />
+
+                <Button
+                    android:id="@+id/btGalleryShare"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00000000" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlGalleryDeleteButton"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:background="@drawable/btdelete_white"
+                    android:layout_centerInParent="true"/>
+
+                <Button
+                    android:id="@+id/btGalleryDelete"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00000000"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="50dp">
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/btoptions_white" />
+
+                <Button
+                    android:id="@+id/btGalleryOptions"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:background="#00000000"/>
+
+
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.infinityco.infinitygallery.Objects.HorSwipeAwareRelativeLayout
+    android:id="@+id/rlActivity"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activitys.FolderActivity">
+
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal">
+
+
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="50dp"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="19dp"
+                        android:layout_height="19dp"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/btback"
+                        android:gravity="center" />
+
+                    <Button
+                        android:id="@+id/btBack"
+                        android:layout_width="30dp"
+                        android:layout_height="50dp"
+                        android:background="#00000000" />
+
+
+                </RelativeLayout>
+
+                <Button
+                    android:id="@+id/btFiles"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#00000000"
+                    android:gravity="left|center_vertical"
+                    android:singleLine="true"
+                    android:text="@string/HiddenFolders"
+                    android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+                    android:textColor="@color/colorDetailDark"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@drawable/datail_gradient"
+            android:paddingBottom="5dp" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvFiles"
+            android:background="#00000000"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/tvNoHidden"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true" />
+
+    </LinearLayout>
+</com.infinityco.infinitygallery.Objects.HorSwipeAwareRelativeLayout>

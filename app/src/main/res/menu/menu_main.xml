@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/btEdit"
+        android:icon="@drawable/btedit"
+        android:title="@string/edit_photo" />
+    <item android:id="@+id/btSetAs"
+        android:icon="@drawable/btset_as"
+        android:title="@string/set_as" />
+    <item android:id="@+id/btDetail"
+        android:icon="@drawable/btset_as"
+        android:title="@string/details" />
+</menu>

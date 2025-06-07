@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:background="#000"
+    tools:context=".Activitys.VideoPlayer">
+
+    <VideoView
+        android:id="@+id/VideoView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/btVideoLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/rlPlayVideoBotton"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/rlPlayVideoTop"
+        android:background="#00000000" />
+
+    <LinearLayout
+        android:id="@+id/rlPlayVideoBotton"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="7dp"
+        android:background="@drawable/box_layout_player"
+        android:orientation="vertical">
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:progressDrawable="@drawable/ios_custom_seekbar"
+            android:thumb="@drawable/custom_seekbar_thumb_full" />
+
+        <RelativeLayout
+            android:id="@+id/playbox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="bottom">
+
+            <Button
+                android:id="@+id/btplay"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/btpause" />
+
+            <RelativeLayout
+                android:id="@+id/shuffleLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btplay"
+                android:layout_alignParentStart="true"
+                android:layout_alignTop="@+id/btplay"
+                android:layout_toStartOf="@+id/btplay"
+                android:paddingRight="30dp">
+
+
+                <RelativeLayout
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginLeft="5dp">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_height="25dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/minimizar" />
+
+                    <Button
+                        android:id="@+id/btMinimizar"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:background="#00000000" />
+
+                </RelativeLayout>
+
+                <TextView
+                    android:id="@+id/currentduration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginEnd="46dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="00:00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#404040" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/btplay"
+                android:layout_alignTop="@+id/btplay"
+                android:layout_toEndOf="@+id/btplay"
+                android:gravity="center"
+                android:paddingLeft="30dp">
+
+                <TextView
+                    android:id="@+id/totalduration"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:text="00:00"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:textColor="#404040" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rlPlayVideoTop"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <RelativeLayout
+            android:id="@+id/rlBack"
+            android:layout_width="30dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true">
+
+            <ImageView
+                android:layout_width="19dp"
+                android:layout_height="19dp"
+                android:layout_centerInParent="true"
+                android:background="@drawable/btback_white" />
+
+            <Button
+                android:id="@+id/btVideoPlayerBack"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:background="#00000000" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rlOptions"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

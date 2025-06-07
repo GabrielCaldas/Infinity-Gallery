@@ -1,0 +1,180 @@
+<resources>
+    <string name="app_name">Gallery</string>
+    <string name="media">Media</string>
+    <string name="medias">Medias</string>
+    <string name="more">More</string>c
+    <string name="selections">Selections</string>
+    <string name="selection">Selection</string>
+    <string name="shareto">Share to...</string>
+    <string name="deleting">Deleting. Please, wait.</string>
+    <string name="excluded">Medias excluded.</string>
+    <string name="excludFail">Something has fail. We soo sorry.</string>
+    <string name="excludeTittle">Delete</string>
+    <string name="excludeMessage">Are you sure about it?</string>
+    <string name="excludeMessageEnd">file will be excluded.</string>
+    <string name="excludeMessageEnds">files will be excluded.</string>
+    <string name="excludeFolderMessage">Do you really wanna delete all medias from</string>
+    <string name="cancel">Cancel</string>
+    <string name="close">Close</string>
+    <string name="Images">Images</string>
+    <string name="newFolder">New folder</string>
+    <string name="moveTittle">Move files</string>
+    <string name="moveMessage">Please select the destiny folder or create one.</string>
+    <string name="moveConfirmeTittle">Are you sure?</string>
+    <string name="moveConfirmeMessage">Move files to</string>
+    <string name="moveDoneMessage">archive has been moved to</string>
+    <string name="moveDonesMessage">archive(s) has been moved to</string>
+    <string name="move">Move</string>
+    <string name="movingMessage">Moving...</string>
+    <string name="Allow_access">Allow access</string>
+    <string name="Allow_access_mensage">  Please allow Infinity Gallery to read your medias.</string>
+    <string name="Set_as">Set as:</string>
+    <string name="Set_as_fail">This functions needs a image.</string>
+    <string name="newFolderTittle">New folder</string>
+    <string name="newFolderMessage">Enter with folder´s name.</string>
+    <string name="newFolderButton">Move to new folder</string>
+    <string name="details">Details</string>
+    <string name="detailsPath">Directory:</string>
+    <string name="options">Options</string>
+    <string name="edit_photo">Edit photo</string>
+    <string name="set_as">Set as wallpaper</string>
+    <string name="invalidCaracter">Please enter with valid carcters</string>
+    <string name="Ignore">Ignore</string>
+    <string name="Ignore_Tittle">Ignore?</string>
+    <string name="Ignore_Message">Do you really wanna hide this folder? It wont be exclude, but will not be showed in the gallery (unless you undo it on "Options")</string>
+
+
+    <string name="archives">Archives:</string>
+    <string name="size">Size:</string>
+    <string name="Date">Date:</string>
+    <string name="width">Width:</string>
+    <string name="Height">Height:</string>
+    <string name="Duration">Duration:</string>
+    <string name="DataPrecision">Data precision:</string>
+    <string name="CreationDate">Created:</string>
+    <string name="LastModificationDate">Last modification:</string>
+    <string name="Unknow">Unknow</string>
+    <string name="CameraFactory">Factory:</string>
+    <string name="CameraModel">Model:</string>
+    <string name="Exposure">Exposure time:</string>
+    <string name="Iso">ISO:</string>
+    <string name="Focal">Focal:</string>
+    <string name="Flash">Flash:</string>
+    <string name="Aperture">Aperture:</string>
+    <string name="Brightness">Brightness:</string>
+
+
+    <string name="Folders">Folders</string>
+    <string name="Recent">Recent</string>
+    <string name="Files">Files</string>
+    <string name="HiddenFolders">Hidden folders</string>
+    <string name="Path">Path:</string>
+    <string name="RemoveFromHidden">Remove from hiddens</string>
+    <string name="RemoveFromHiddenMessage">Do you really want to show this folder:</string>
+    <string name="Berreivment">Behavior</string>
+    <string name="show">Show</string>
+    <string name="Orginal">Original folder</string>
+    <string name="showFolderMessage">Now the folder will be acessible by the gallery.</string>
+    <string name="showFolderFailMessage">Something wrong happens. Try again.</string>
+    <string name="noHiddenFolders">You have no hidden folder. To hidden some folder, get back to the main screen and press and hold a folder. Then, choose hide, set the correct path and finally hide the folder.</string>
+    <string name="hideFolderMessageDone">has been hidden.</string>
+    <string name="hideFolderDontGetTheParentMessage">You can`t back this folder.</string>
+    <string name="DarkTheme">Dark theme</string>
+    <string name="DarkThemeMensage">Do you want to active the dark theme?</string>
+    <string name="RecentPhotos">Recents</string>
+    <string name="RecentPhotosMensage">Do you want to see  all gallery medias on recent list?</string>
+    <string name="DartThemeApplyMensage">The modifications will be apply when you get back to the main screen.</string>
+    <string name="RawStatus">Raw files</string>
+    <string name="RawStatusMensage">RAW are pure image files, that is, without treatments or quality loss. Such loss may be caused due to conversion and / or compression. Do you wanna load these?</string>
+    <string name="RawDialogMensage">RAW are pure image files, that is, without treatments or quality loss. Such loss may be caused due to conversion and / or compression. For this reason, the files may take some time to load.
+        \n         You can choose not to load them on the behavior options menu.</string>
+    <string name="RawDialogChange">Change</string>
+    <string name="NewFolderPath">New folder path</string>
+    <string name="NewFolderpathMessage">Choose the folder`s name which new folders will be created within.</string>
+    <string name="NewFolderpathErro1Message">Please try without special characters.</string>
+    <string name="NewFolderpathErro2Message">Some thing wrong happens. Try again.</string>
+    <string name="Save">Save</string>
+    <string name="Change">Change</string>
+    <string name="Done">Done</string>
+    <string name="LoadMediaExternNotMappedMessage">This folder was not scanned by Android. Because this, only this media will be showed.</string>
+    <string name="LoadMediaExternNotMappedAction">Scan now</string>
+
+    <string name="MovingDialogTittle">Moving</string>
+    <string name="MovingDialogMessage">Wait while your media files has being moved.</string>
+
+    <string name="FullScreenTittle">Fullscreen</string>
+    <string name="FullScreenMensage">Do you want to show gallery in fullscreen?</string>
+
+    <string name="NewStyleTittle">New Folder´s style</string>
+    <string name="NewStyleMensage">The new folder design is clearer and simpler than the previous one, but it no longer has an image preview list, and this allows Infinity Gallery to make better use of the phone memory.</string>
+
+    <string name="GridTheme">Folder´s grid</string>
+    <string name="GridThemeMensage">Show folders list as a grid with two columns?</string>
+
+    <string name="HighQualityTittle">High quality images</string>
+    <string name="HighQualitySpinnerMessage">Choose the image`s quality. Attention, better quality may cause application slowness. Also, this option is not as relevant(not recommended) from the Android Oreo.</string>
+    <string name="HighQualityMessage">This option can cause high memory usage and application slowness.</string>
+    <string name="HiQuilitySpinner1">Low (Recommended)</string>
+    <string name="HiQuilitySpinner2">Medium</string>
+    <string name="HiQuilitySpinner3">High</string>
+
+    <string name="NewVersionDialogTittle">Welcome!</string>
+    <string name="NewUserMessage">\u00A0\u00A0This is the Infinity Gallery! Now you can access your images and media from a quick and easy way into a beautiful application. \n\u00A0\u00A0The Infinity Gallery, besides being beautiful and organized, gives gesture support (swipe right to return to the previous screen), customize app design (go to the `Behavior´ menu in `Options´), edit your photos and more! \n \n Thank you, \n Infinity Gallery. </string>
+    <string name="NewVersionDialogMessage">Welcome to the new version of Infinity Gallery!</string>
+    <string name="NewVersionDialogMessage2">    News:
+        \n         - New recents list behavior.
+        \n         - Improved application behavior and processing speed.
+    </string>
+    <string name="NewVersionDialogButton">Let´s go!</string>
+
+
+    <string name="photoEditorContrast">Contrast</string>
+    <string name="photoEditorBrightness">Brightness</string>
+    <string name="PhotoEditor">Photo editor</string>
+    <string name="PhotoEditorPath">Edited</string>
+    <string name="PhotoEditorRed">Red</string>
+    <string name="PhotoEditorBlue">Blue</string>
+    <string name="PhotoEditorGreen">Green</string>
+    <string name="PhotoEditorSaveMessage">Are you want to exit without saving image?</string>
+    <string name="PhotoEditorDiscard">Discard</string>
+    <string name="savingMensage">Saving...</string>
+    <string name="PhotoEditorCut">Cut</string>
+    <string name="PhotoEditorCancel">Cancel</string>
+    <string name="savingSucessMensage">Image Saved Successfully on</string>
+    <string name="savingFailMensage">Failed to save Image</string>
+
+
+    <string name="PhotoEditorApplying">Applying...</string>
+    <string name="PhotoEditorFilterGRAY">Gray scale</string>
+    <string name="PhotoEditorFilterRELIEF">Relief</string>
+    <string name="PhotoEditorFilterNEON">Neon</string>
+    <string name="PhotoEditorFilterAVERAGE_BLUR">Avarage blur</string>
+    <string name="PhotoEditorFilterPIXELATE">Pixelate</string>
+    <string name="PhotoEditorFilterTV">TV</string>
+    <string name="PhotoEditorFilterINVERT">Invert</string>
+    <string name="PhotoEditorFilterBLOCK">Block</string>
+    <string name="PhotoEditorFilterOLD">Old</string>
+    <string name="PhotoEditorFilterLIGHT">Light</string>
+    <string name="PhotoEditorFilterLOMO">Lomo</string>
+    <string name="PhotoEditorFilterHDR">HDR</string>
+    <string name="PhotoEditorFilterSOFT_GLOW">Soft glow</string>
+    <string name="PhotoEditorFilterGAUSSIANBLUR">Gaussian blur</string>
+    <string name="PhotoEditorFilterSKETCH">Sketch</string>
+    <string name="PhotoEditorFilterGOTHAM">Gotham</string>
+    <string name="PhotoEditorFilterNone">None</string>
+    <string name="PhotoEditorUndoMessage">Do you really want undo all your changes?</string>
+    <string name="PhotoEditorUndoMessagePositive">Yes</string>
+
+    <string name="Thanks">\u00A0\u00A0\u00A0\u00A0Special thanks to OnePlus Brasil and Manolos da Sançung. You can find they by clicking below.</string>
+    <string name="ThanksFaceBookGroup">Facebook Group</string>
+
+    <string name="Today">Today</string>
+    <string name="Last7">Last 7 days</string>
+
+    <string name="allowDelete">Allow delete</string>
+    <string name="allowDeleteMSG">Now Android asks for permission to allow any application to delete files.\n\nDon`t worry, it`s easy!\nInfinity Gallery will guide you to a new screen. Over there, just follow these steps bellow:</string>
+    <string name="firstStep">1º step</string>
+    <string name="secondStep">2º step</string>
+    <string name="allowDelete1step">Find the Infinity Gallery, then click it.</string>
+    <string name="allowDelete2step">Turn on the switch, just like the image bellow. Then, get back here!</string>
+</resources>

@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Galeria</string>
+    <string name="media">Mídia</string>
+    <string name="medias">Mídias</string>
+    <string name="more">Mais</string>
+    <string name="selections">Seleções</string>
+    <string name="selection">Seleção</string>
+    <string name="shareto">Compartilhar com...</string>
+    <string name="deleting">Apagando. Por favor, aguarde.</string>
+    <string name="excluded">Mídias excluidas.</string>
+    <string name="excludFail">Algo saiu errado. Sentimos muito.</string>
+    <string name="excludeTittle">Deletar</string>
+    <string name="excludeMessage">Você tem certeza?</string>
+    <string name="excludeMessageEnd">arquivo vai ser excluido.</string>
+    <string name="excludeMessageEnds">arquivos vão ser excluidos.</string>
+    <string name="excludeFolderMessage">Você tem certeza que deseja excluir todas as mídias de</string>
+    <string name="cancel">Cancelar</string>
+    <string name="close">Fechar</string>
+    <string name="Images">Imagens</string>
+    <string name="newFolder">Nova pasta</string>
+    <string name="moveTittle">Mover arquivos</string>
+    <string name="moveMessage">Por favor, selecione a pasta destino ou crie uma nova.</string>
+    <string name="moveConfirmeTittle">Você tem certeza?</string>
+    <string name="moveConfirmeMessage">Mover arquivos para</string>
+    <string name="moveDoneMessage">arquivo foi movido para</string>
+    <string name="moveDonesMessage">arquivos foram movidos para</string>
+    <string name="move">Mover</string>
+    <string name="movingMessage">Movendo...</string>
+    <string name="Allow_access">Garanta acesso</string>
+    <string name="Allow_access_mensage">   Por favor, forneça permições de acesso de leitura ao Infinity Gallery. Nenhuam informação sua será compartilhada, sendo utilizada apenas para formação do banco de dados do app. Caso contrário, o Ininity Gallery irá encerrar</string>
+    <string name="Set_as">Definir como:</string>
+    <string name="Set_as_fail">Esta função está disponível apenas para imagens.</string>
+    <string name="newFolderTittle">Nova pasta</string>
+    <string name="newFolderMessage">Entre com o nome da nova pasta.</string>
+    <string name="newFolderButton">Mover para nova pasta</string>
+    <string name="details">Detalhes</string>
+    <string name="detailsPath">Diretório:</string>
+    <string name="options">Opções</string>
+    <string name="edit_photo">Editar foto</string>
+    <string name="set_as">Definir como papel de parede</string>
+    <string name="invalidCaracter">Por favor, entre com caracteres válidos.</string>
+    <string name="Ignore">Ocultar</string>
+    <string name="Ignore_Tittle">Ocultar?</string>
+    <string name="Ignore_Message">Você tem certeza que deseja ocultar esta pasta? Ela não será excluida, mas não será visível na galeria (a menos que você desfaça esta escolha em "opções").</string>
+
+
+
+    <string name="archives">Arquivos:</string>
+    <string name="size">Tamanho:</string>
+    <string name="Date">Data:</string>
+    <string name="width">Largura:</string>
+    <string name="Height">Altura:</string>
+    <string name="Duration">Duração:</string>
+    <string name="DataPrecision">Precisão de informação:</string>
+    <string name="CreationDate">Criado:</string>
+    <string name="LastModificationDate">Última modificação:</string>
+    <string name="Unknow">Desconhecido</string>
+    <string name="CameraFactory">Marca:</string>
+    <string name="CameraModel">Modelo:</string>
+    <string name="Exposure">Tempo de exposição:</string>
+    <string name="Iso">ISO:</string>
+    <string name="Focal">Foco:</string>
+    <string name="Flash">Flash:</string>
+    <string name="Aperture">Abertura:</string>
+    <string name="Brightness">Brilho:</string>
+
+    <string name="RecentPhotos">Recentes</string>
+    <string name="RecentPhotosMensage">Você quer ver todas as mídias da galeria na lista recente?</string>
+    <string name="Folders">Pastas</string>
+    <string name="Recent">Recentes</string>
+    <string name="Files">Arquivos</string>
+    <string name="HiddenFolders">Pastas ocultas</string>
+    <string name="Path">Diretório:</string>
+    <string name="RemoveFromHidden">Remover dos ocultos</string>
+    <string name="RemoveFromHiddenMessage">Você tem certeza que deseja exibir esta pasta:</string>
+    <string name="Berreivment">Comportamento</string>
+    <string name="show">Exibir</string>
+    <string name="showFolderMessage">Agora a pasta está acessivel pela galeria.</string>
+    <string name="showFolderFailMessage">Algo deu errado. Tente novamente.</string>
+    <string name="noHiddenFolders">Você não tem nenhuma pasta oculta. Para ocultar uma pasta, volte à tela principal, aperte e segure uma pasta, escolha o diretório correto e, finalmente, oculte a pasta.</string>
+    <string name="hideFolderMessageDone">foi oculto.</string>
+    <string name="Orginal">Pasta original</string>
+    <string name="hideFolderDontGetTheParentMessage">Você não pode voltar esta pasta.</string>
+    <string name="RawStatus">Arquivos raw</string>
+    <string name="RawStatusMensage">RAW são arquivos de imagem puros, ou seja, sem tratamentos ou perda de qualidade. Tal perda pode ser causada devido à conversão e/ou compressão. Você deseja carregá-los?</string>
+    <string name="RawDialogMensage">RAW são arquivos de imagem puros, ou seja, sem tratamentos ou perda de qualidade. Tal perda pode ser causada devido à conversão e/ou compressão, por isso, pode ser mais demorado carregá-los.
+        \n         Você pode escolher não carregalos no menu de opções de comportamento.</string>
+    <string name="DarkTheme">Tema escuro</string>
+    <string name="RawDialogChange">Alterar</string>
+    <string name="DarkThemeMensage">Você deseja ativar o tema escuro?</string>
+    <string name="DartThemeApplyMensage">As modificações serão aplicadas quando você voltar à tela principal.</string>
+    <string name="NewFolderPath">Diretório de nova pasta</string>
+    <string name="NewFolderpathMessage">Escolha o nome da pasta na qual novas pastas serão criadas.</string>
+    <string name="NewFolderpathErro1Message">Por favor, tente sem os caracteres especiais.</string>
+    <string name="NewFolderpathErro2Message">Algo errado aconteceu. Tente novamente.</string>
+    <string name="Save">Salvar</string>
+    <string name="Change">Mudar</string>
+    <string name="Done">Pronto</string>
+    <string name="LoadMediaExternNotMappedMessage">Esta pasta não foi mapeada pelo android. Por isso, apenas esta mídia será exibida.</string>
+    <string name="LoadMediaExternNotMappedAction">Mapear agora</string>
+
+    <string name="FullScreenTittle">Tela cheia</string>
+    <string name="FullScreenMensage">Você deseja a galeria em tela cheia?</string>
+
+    <string name="NewStyleTittle">Novo stilo de pasta</string>
+    <string name="NewStyleMensage">O novo design de pasta é mais simples do que o anterior, mas não tem mais lista de de previsualização de imagens, e isso permite que o Infinity Galeria faça um melhor uso da memória do celular.</string>
+
+
+    <string name="GridTheme">Pastas em grade</string>
+    <string name="GridThemeMensage">Exibir pastas em grade com duas colunas?</string>
+
+    <string name="HighQualityTittle">Imagens em alta qualidade</string>
+    <string name="HighQualitySpinnerMessage">Selecione a qualidade de imagem desejada. Lembre-se, qualidade mais alta pode causar lentidão ao abrir uma imagem. Além disso, esta opção não é tão relevante apartir do android Oreo (e não recomendada).</string>
+    <string name="HighQualityMessage">Esta opção pode causar alto uso de memória e lentidão no app.</string>
+    <string name="HiQuilitySpinner1">Baixa (Recomendada)</string>
+    <string name="HiQuilitySpinner2">Media</string>
+    <string name="HiQuilitySpinner3">Alta</string>
+
+    <string name="NewVersionDialogTittle">Bem vindo!</string>
+    <string name="NewUserMessage">\u00A0\u00A0Isto é o Infinity Galeria! Agora você pode acessar suas imagens e mídias de um jeito rápido e fácil em um belo aplicativo. \n\u00A0\u00A0O Infinity Galeria, além de bonito e organizado, dá suporte a gestos (deslize para a direita para voltar à tela anterior), personalize o design do app (acesse o menu de `Comportamento´ em `Opções´), edite suas fotos e muito mais funções! \n\n Muito obrigado, \n Infinity Galeria.</string>
+    <string name="NewVersionDialogMessage">Bem vindo à nova versão 4.0 do Infinity Galeria!</string>
+    <string name="NewVersionDialogMessage2">    Novidades:
+        \n         - Novo comportamento para a lista de recentes.
+        \n         - Correção de bugs.
+    </string>
+    <string name="NewVersionDialogButton">Vamos lá!</string>
+
+    <string name="photoEditorContrast">Contraste</string>
+    <string name="photoEditorBrightness">Brilho</string>
+    <string name="PhotoEditor">Editor de fotos</string>
+    <string name="PhotoEditorPath">Editado</string>
+    <string name="PhotoEditorRed">Vermelho</string>
+    <string name="PhotoEditorBlue">Azul</string>
+    <string name="PhotoEditorGreen">Verde</string>
+    <string name="PhotoEditorSaveMessage">Voce que sair sem salvar a iamgem?</string>
+    <string name="PhotoEditorDiscard">Descartar</string>
+    <string name="savingMensage">Salvando...</string>
+    <string name="PhotoEditorCut">Cortar</string>
+    <string name="PhotoEditorCancel">Cancelar</string>
+    <string name="savingSucessMensage">Image salva com sucesso em</string>
+    <string name="savingFailMensage">Erro ao salvar a imagem</string>
+
+
+    <string name="PhotoEditorApplying">Aplicando...</string>
+    <string name="PhotoEditorFilterGRAY">Escala de cinza</string>
+    <string name="PhotoEditorFilterRELIEF">Relief</string>
+    <string name="PhotoEditorFilterNEON">Neon</string>
+    <string name="PhotoEditorFilterAVERAGE_BLUR">Disgoque médio</string>
+    <string name="PhotoEditorFilterPIXELATE">Pixelate</string>
+    <string name="PhotoEditorFilterTV">Televisão</string>
+    <string name="PhotoEditorFilterINVERT">Inverter</string>
+    <string name="PhotoEditorFilterBLOCK">Block</string>
+    <string name="PhotoEditorFilterOLD">Antigo</string>
+    <string name="PhotoEditorFilterLIGHT">Luz</string>
+    <string name="PhotoEditorFilterLOMO">Lomo</string>
+    <string name="PhotoEditorFilterHDR">HDR</string>
+    <string name="PhotoEditorFilterSOFT_GLOW">Brilho suave</string>
+    <string name="PhotoEditorFilterSKETCH">Rascunho</string>
+    <string name="PhotoEditorFilterGAUSSIANBLUR">Desfoque Gaussiano</string>
+    <string name="PhotoEditorFilterGOTHAM">Gotham</string>
+    <string name="PhotoEditorFilterNone">Original</string>
+    <string name="PhotoEditorUndoMessage">Você tem certeza que deseja voltar à imagem original?</string>
+    <string name="PhotoEditorUndoMessagePositive">Sim</string>
+
+    <string name="Thanks">\u00A0\u00A0\u00A0\u00A0Um agradecimento especial a OnePlus Brasil e Manolos da Sançung. Você pode acha-los clicando abaixo.</string>
+    <string name="ThanksFaceBookGroup">Grupo no Facebook</string>
+
+
+    <string name="MovingDialogTittle">Movendo</string>
+    <string name="MovingDialogMessage">Aguarde enquanto seus arquivos são movidos.</string>
+
+    <string name="Today">Hoje</string>
+    <string name="Last7">Ultimos 7 dias</string>
+
+    <string name="allowDelete">Permitir exclusão</string>
+    <string name="allowDeleteMSG">Agora é necessário informar o android que o aplicativo tem permissão para excluir arquivos.\n\nÉ muito fácil. O Infinity Galeria lhe inviará para a tela adequada. Lá, basta seguir os passos abaixo:</string>
+    <string name="firstStep">1º passo</string>
+    <string name="secondStep">2º passo</string>
+    <string name="allowDelete1step">Localize o Infinity Galeria e clique.</string>
+    <string name="allowDelete2step">Habilite o interruptor, assim como na foto abaixo. Em seguida, volte ao Infinity Galeria.</string>
+</resources>
